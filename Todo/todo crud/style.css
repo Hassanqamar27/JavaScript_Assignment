@@ -1,0 +1,5 @@
+/* You can add your custom styles here */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}

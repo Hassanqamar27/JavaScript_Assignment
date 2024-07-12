@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #212121;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+h1 {
+  color: #f0f0f0;
+}
+
+/* .calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+input[type="text"] {
+  width: 300px;
+  height: 50px;
+  text-align: right;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+td {
+  width: 25%;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+td:hover {
+  background: #f0f0f0;
+}
+
+td:active {
+  background: #ddd;
+}
+
+/* td:nth-child(4) {
+  background: #f8f8f8;
+  color: #555;
+} */
+
+td[rowspan="3"] {
+  background: #4caf50;
+  color: white;
+}
+
+td[rowspan="3"]:hover {
+  background: #45a049;
+}
+
+td[value="C"],
+td[value="AC"] {
+  background: #ff5722;
+  color: white;
+}
+
+td[value="C"]:hover,
+td[value="AC"]:hover {
+  background: #e64a19;
+}

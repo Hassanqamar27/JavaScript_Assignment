@@ -1,0 +1,15 @@
+Three type of translator
+>Compiler: EXECUTE ALL CODE
+>Interpreter: LINE BY LINE
+>Assembler: ASSEMBLY TO MACHINE
+
+
+JAVASCRIPT: use Interpreter
+
+
+
+Variables:
+= assigning operator
+; statement terminator
+
+Reinitialize:

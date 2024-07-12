@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4 offset-4">
+                <div class="parent text-center">
+                    <div id="min" class="bg-light rounded p-3">00</div>
+                    <div id="sec" class="bg-light rounded p-3">00</div>
+                    <div id="msec" class="bg-light rounded p-3">00</div>
+                </div>
+
+                <div class="btnparent text-center mt-3">
+                    <button onclick="startTimer()" id="startBtn" class="btn btn-primary">START</button>
+                    <button onclick="stopTimer()" id="stopBtn" class="btn btn-danger" disabled>STOP</button>
+                    <button onclick="resetTimer()" id="resetBtn" class="btn btn-warning">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    style="
+      background-image: url('https://plus.unsplash.com/premium_photo-1671595266045-b838ad5f9b48?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: cover;
+    "
+  >
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-4 offset-4">
+          <div class="parent text-center">
+            <div id="days" class="bg-light rounded p-3">00</div>
+            <div id="hours" class="bg-light rounded p-3">00</div>
+            <div id="min" class="bg-light rounded p-3">00</div>
+            <div id="sec" class="bg-light rounded p-3">00</div>
+            <div id="msec" class="bg-light rounded p-3">00</div>
+          </div>
+
+          <div class="btnparent text-center mt-3">
+            <button
+              onclick="startTimer()"
+              id="startBtn"
+              class="btn btn-primary"
+            >
+              START
+            </button>
+            <button
+              onclick="stopTimer()"
+              id="stopBtn"
+              class="btn btn-danger"
+              disabled
+            >
+              STOP
+            </button>
+            <button
+              onclick="resetTimer()"
+              id="resetBtn"
+              class="btn btn-warning"
+            >
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

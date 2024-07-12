@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator Made By Hassan Qamar</h1>
+    <div class="calculator">
+      <input type="text" placeholder="0" id="get" />
+      <table border="2px">
+        <tr>
+          <td value="+" onclick="calculator('+')">+</td>
+          <td value="-" onclick="calculator('-')">-</td>
+          <td value="*" onclick="calculator('*')">*</td>
+          <td value="/" onclick="calculator('/')">/</td>
+        </tr>
+        <tr>
+          <td value="9" onclick="calculator(9)">9</td>
+          <td value="8" onclick="calculator(8)">8</td>
+          <td value="7" onclick="calculator(7)">7</td>
+          <td value="%" onclick="calculator('%')">%</td>
+        </tr>
+        <tr>
+          <td value="6" onclick="calculator(6)">6</td>
+          <td value="5" onclick="calculator(5)">5</td>
+          <td value="4" onclick="calculator(4)">4</td>
+          <td rowspan="3" value="=" onclick="calculateValue(result)">=</td>
+        </tr>
+        <tr>
+          <td value="3" onclick="calculator(3)">3</td>
+          <td value="2" onclick="calculator(2)">2</td>
+          <td value="1" onclick="calculator(1)">1</td>
+        </tr>
+        <tr>
+          <td value="C" onclick="del(result)">C</td>
+          <td value="0" onclick="calculator(0)">0</td>
+          <td value="AC" onclick="allClear(result)">AC</td>
+        </tr>
+      </table>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
